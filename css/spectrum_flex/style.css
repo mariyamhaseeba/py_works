@@ -1,0 +1,129 @@
+body{
+    background-color: black;
+    position: relative;
+    left: 25%;
+}
+.row{
+    border: 1px solid black;
+    height:600px;
+    width:50%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.col{
+    border: 1px solid rgb(255, 255, 255);
+    height: 600px;
+    width: 400px;
+    background-color: blue;
+}
+.row .col:nth-last-child(1){
+    background-color: aquamarine;
+}
+.row .col:nth-last-child(2){
+    background-color: rgb(159, 255, 127);
+}
+
+.row .col:nth-last-child(3){
+    background-color: rgb(211, 215, 136);
+}
+
+.row .col:nth-last-child(4){
+    background-color: rgb(130, 99, 144);
+}
+
+.row .col:nth-last-child(5){
+    background-color: rgb(198, 130, 219);
+}
+
+.r1 .row3 .col3:nth-child(1){
+    background-color: yellowgreen;
+}
+.r1 .row3 .col3:nth-child(2){
+    background-color: rgb(205, 102, 50);
+}
+.r1 .row3 .col3:nth-child(3){
+    background-color: rgb(210, 194, 170);
+}
+.r1 .row3 .col3:nth-child(4){
+    background-color: rgb(205, 166, 50);
+}
+.r1 .row3 .col3:nth-child(5){
+    background-color: rgb(238, 197, 162);
+}
+.r1 .row3 .col3:nth-child(6){
+    background-color: rgb(193, 219, 227);
+}
+.r1 .row3 .col3:nth-child(7){
+    background-color: rgb(207, 179, 204);
+}
+.r1 .row3 .col3:nth-child(8){
+    background-color: rgba(141, 176, 222, 0.411);
+}
+.r1 .row3 .col3:nth-child(9){
+    background-color: rgb(159, 132, 174);
+}
+
+.row2{
+    border: 1px solid rgb(26, 25, 25);
+    height:600px;
+    width:70%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.col2{
+    border: 1px solid rgb(255, 255, 255);
+    height: 600px;
+    width: 400px;
+    background-color: rgb(74, 221, 58);
+}
+.r{
+    position: relative;
+    left:-10%;
+}
+.col3{
+    border: 1px solid rgb(255, 255, 255);
+    height: 600px;
+    width: 400px;
+    background-color: rgb(176, 79, 116);
+}
+.row3{
+    border: 1px solid rgb(0, 0, 0);
+    height:600px;
+    width:90%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.r1{
+    position: relative;
+    left:-18%;
+}
+
+.r .row2 .col2:nth-child(1){
+    background-color: blueviolet;
+}
+.r .row2 .col2:nth-child(2){
+    background-color: rgb(227, 71, 69);
+}
+.r .row2 .col2:nth-child(3){
+    background-color: rgb(130, 202, 195);
+}
+.r .row2 .col2:nth-child(4){
+    background-color: rgb(21, 207, 129);
+}
+.r .row2 .col2:nth-child(5){
+    background-color: rgb(226, 131, 43);
+}
+.r .row2 .col2:nth-child(6){
+    background-color: blueviolet;
+}
+.r .row2 .col2:nth-child(7){
+    background-color: rgb(226, 43, 156);
+}
+
+.e{
+    margin-top: 400px;
+}

@@ -1,0 +1,11 @@
+start=1
+end=50
+while(start<=end):
+    if start%15==0:
+        print("efg")
+    elif start%5==0:
+        print("cd")
+    elif start%3==0:
+        print("a")
+    start=start+1
+    

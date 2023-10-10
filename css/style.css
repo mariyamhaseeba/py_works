@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+/* h1{
+    color: rgb(169, 210, 232);
+} */
+#first{
+    color: rgb(110, 226, 43);
+}
+
+#second{
+    color:rgb(220, 127, 194)
+    ;
+}
+.item{
+    color: blue;
+    text-decoration: overline;
+    text-decoration-color: aliceblue;
+}
+.item2{
+    color:white;
+    text-decoration: underline;
+    text-decoration-color:blue;
+}
+.item3{
+    color: blueviolet;
+    text-decoration:line-through;
+    text-decoration-color: red;
+}
+.item4{
+    color: aquamarine;
+}
+.main-head h1{
+    color: aqua;
+}
+.main-head h1:nth-child(2){
+    color: aliceblue;
+}

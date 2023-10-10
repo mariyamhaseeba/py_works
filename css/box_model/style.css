@@ -1,0 +1,19 @@
+.box{
+    border:1px  solid black;
+    width:30%;
+    height: 100px;
+    background-color: burlywood;
+
+}
+body{
+    margin:100px;
+}
+nav{
+    margin-left:50%;
+    margin-top: 20px;
+    padding-left: 50%;
+}
+footer{
+    margin-left: 430px;
+    margin-top: 500px;
+}
